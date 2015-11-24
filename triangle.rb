@@ -25,6 +25,6 @@ end
 
 if ARGV.count == 3
   puts Triangle.catagorize()
-elsif ARGV.count > 3 || ARGV.count < 3
+elsif ARGV.count != 3
   puts "please include 3 sides: '$ ruby triangle.rb <side> <side> <side>'"
 end
